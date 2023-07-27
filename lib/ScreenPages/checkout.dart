@@ -235,7 +235,7 @@ class _checkoutcontent extends State<_checkout> {
 
                         pesanan += "Nama Products: ${name_product}\n" +
                             "Jumlah Beli: ${jumlah_beli}\n" +
-                            "harga: Rp ${rupiahFormat.format(int.parse(harga))}\n" +
+                            "harga: ${rupiahFormat.format(int.parse(harga))}\n" +
                             "ukuran cap: ${size}\n\n";
 
                         totalbayar += int.parse(harga);

@@ -193,7 +193,7 @@ class _countProducts extends State<countProducts> {
                         ),
                         Container(
                           child: Text(
-                            "Rp. ${HitungHarga()}",
+                            "${HitungHarga()}",
                             style: TextStyle(fontSize: 20),
                           ),
                         )

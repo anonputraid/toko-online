@@ -14,9 +14,11 @@
         </intent>
     </queries>
 
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:label="grap_boba"
+        android:label="Bitshop"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
