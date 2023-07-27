@@ -244,7 +244,7 @@ class _checkoutcontent extends State<_checkout> {
                       var totalkeseluruhanbayar = totalbayar + 10000;
 
                       String penutup =
-                          "Total Keseluruhan: Rp ${rupiahFormat.format(totalbayar)}\nOngkir: 10.000\nTotal Bayar: Rp ${rupiahFormat.format(totalkeseluruhanbayar)}";
+                          "Total Keseluruhan: ${rupiahFormat.format(totalbayar)}\nOngkir: 10.000\nTotal Bayar: Rp ${rupiahFormat.format(totalkeseluruhanbayar)}";
 
                       _openWhatsAppWithMessage("6282268071774",
                           "${intro}\n${perkenalan}\n${pesanan}\n${penutup}");
